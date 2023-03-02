@@ -1,3 +1,13 @@
+Forked.
+
+Not working on Mac M1/M2 ARM currently.
+
+- `docker compose up`
+
+Used `brew install chromium` on local mac (https://linguinecode.com/post/how-to-fix-m1-mac-puppeteer-chromium-arm64-bug)
+
+
+
 # pa11y-dashboard-docker-container
 Docker Container with a auto updating pa11y-dashboard
 
