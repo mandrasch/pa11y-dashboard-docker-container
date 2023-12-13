@@ -5,10 +5,8 @@ services:
       - database
     build: .
     ports:
-      - 4000:4000
+      - "4000:4000"
     container_name: pa11y-dashboard
-    links:
-      - database:mongodb
   database:
     image: mongo:4.4
     ports:

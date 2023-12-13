@@ -8,8 +8,8 @@
     "port": 3123,
     "cron": "0 30 0 * * *",
     "chromeLaunchConfig": {
+       "executablePath": "/usr/bin/chromium",
        "args": ["--no-sandbox"]
     }
-
   }
 }
